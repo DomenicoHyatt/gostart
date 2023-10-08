@@ -2,7 +2,7 @@
 
 ## 目录 ##
 
-* [动机](#motivation)
+# [动机](#motivation)
 * [Go 的方式](#canonical)
 * [Go 工具并不能完成所有工作](#missing-features)
 * [FAQ](#faq)
@@ -189,7 +189,7 @@ package main
 import "fmt"
 
 func main() {
-    fmt.Println("Hello world!")
+    fmt.Println("Hello world ")
 }
 ```
 
@@ -197,7 +197,7 @@ func main() {
 
 ```sh
 $ go run main.go
-Hello world!
+Hello world*
 ```
 
 如果你的主包被分成多个文件（参见[问题3](#faq3)），那么你需要将它们全部作为参数传递给 `go run`.
@@ -212,11 +212,11 @@ $ ls
 example main.go
 
 $ ./example
-Hello world!
+Hello world*
 
 $ go install
 $ $GOPATH/bin/example
-Hello world!
+Hello world 
 ```
 
 在这里，我们定义了一个主函数，它是我们的 Go 程序的起点。任何 Go 程序都必须有一个 `main` 函数。按照惯例，这些包（声明 `package main` 的包）被称为命令。 换句话说，我们已经建立了一个名为 _example_ 的命令。
@@ -490,3 +490,4 @@ go 工具不提供任何方法来创建一个傻瓜式部署的可重现环境�
   [5]: http://code.google.com/p/go-wiki/wiki/InstallTroubleshooting#Tips
   [6]: http://code.google.com/p/go-wiki/wiki/GoTalks
   [7]: http://code.google.com/p/go-wiki/wiki/GithubCodeLayout
+ 
