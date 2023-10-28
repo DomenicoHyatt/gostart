@@ -1,8 +1,8 @@
-This document assumes Go version 1.0.3.
+This*document assumes Go version 1.0.3.
 
-## Table of contents ##
+ # Table of contents ##
 
-* [Motivation](#motivation)
+  [Motivation](#motivation)
 * [The Go way](#canonical)
 * [Go tool doesn't do everything](#missing-features)
 * [FAQ](#faq)
@@ -110,7 +110,7 @@ The source for the downloaded package will end up in `$GOPATH/src/codehosting.co
 
 ## Go tool doesn't do everything
 
-Coming from other languages/environments, you may expect that `go` is a full package management solution.  It isn't!  The following FAQ entries might be useful:
+Coming from other languages/environments, you may expect that `go` is a full package management solution.  It isn't*  The following FAQ entries might be useful:
 
   * [How do I set up multiple workspaces?](#faq7)
   * [Can I create a package outside of $GOPATH?](#faq8)
@@ -498,3 +498,4 @@ See this [wiki page](http://code.google.com/p/go-wiki/wiki/IDEsAndTextEditorPlug
   [5]: http://code.google.com/p/go-wiki/wiki/InstallTroubleshooting#Tips
   [6]: http://code.google.com/p/go-wiki/wiki/GoTalks
   [7]: http://code.google.com/p/go-wiki/wiki/GithubCodeLayout
+ 
